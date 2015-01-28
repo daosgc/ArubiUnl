@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo_degradado"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editxtBusqueda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Buscar" />
+
+        <Button
+            android:id="@+id/btnBusqueda"
+            android:layout_width="115dp"
+            android:layout_height="42dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/btn_bsqd"
+            android:drawableRight="@drawable/buscar_depen"
+            android:onClick="buscar"
+            android:text="Buscar" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="#00ffffff"
+        android:divider="#00ffffff"
+        android:dividerHeight="5dp"
+        android:padding="5dp">
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/itmMiCampus"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Mi Campus"/>
+    <item
+        android:id="@+id/itmLimpiarMap"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Limpiar"/>
+    
+    <item
+        android:id="@+id/imtPorAreas"
+        android:icon="@android:drawable/ic_menu_more"
+        android:title="Ver por Áreas">
+        <menu>
+            <item
+                android:id="@+id/imtAdministracion"
+                android:title="Administración Central"/>
+            <item
+                android:id="@+id/itmEnergia"
+                android:title="Energía"/>
+            <item
+                android:id="@+id/itmEducativa"
+                android:title="Educativa"/>
+            <item
+                android:id="@+id/imtSalud"
+                android:title="Salud"/>
+           
+            <item
+                android:id="@+id/imtJuridica"
+                android:title="Jurídica"/>
+            <item
+                android:id="@+id/imtAgropecuaria"
+                android:title="Agropecuaria"/>
+            <item
+                android:id="@+id/imtNivelacion"
+                android:title="Nivelación"/>
+        </menu>
+    </item>
+
+</menu>

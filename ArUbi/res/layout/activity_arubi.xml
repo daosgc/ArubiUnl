@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".EmailActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="115dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btn_gnral"
+            android:drawableTop="@drawable/mapa"
+            android:onClick="cargarMapa"
+            android:text="Mapa UNL" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="115dp"
+            android:layout_height="90dp"
+            android:background="@drawable/btn_gnral"
+            android:drawableTop="@drawable/wikitude"
+            android:onClick="visualizarRealidadAumentada"
+            android:text="Vista RA" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="115dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btn_gnral"
+            android:drawableTop="@drawable/buscar"
+            android:gravity="center"
+            android:onClick="realizarBusquedas"
+            android:text="Buscar" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="115dp"
+            android:layout_height="90dp"
+            android:background="@drawable/btn_gnral"
+            android:drawableTop="@drawable/recomendar"
+            android:gravity="center"
+            android:onClick="recomendarApp"
+            android:text="Recomendar" />
+    </LinearLayout>
+
+</LinearLayout>

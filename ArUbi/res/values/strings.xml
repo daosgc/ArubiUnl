@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string translatable="false" name="app_name">ArUbi</string>
+    <string translatable="false" name="menu_settings">Settings</string>
+	<string translatable="false" name="app_id">487952137944464</string>
+	<string translatable="false" name="cancelled">Cancelado</string>
+    <string translatable="false" name="permission_not_granted">No se puede realizar la acción seleccionada porque no se concede los permisos.</string>
+    <string translatable="false" name="ok">OK</string>
+    <string translatable="false" name="hello_user">Bienvenido %1$s</string>
+    <string translatable="false" name="success">Mensaje</string>
+    <string translatable="false" name="successfully_posted_post">Se ha compartido correctamente la información</string>
+    <string translatable="false" name="error">Error</string>
+    <string translatable="false" name="photo_post">Photo Post</string>
+    <string translatable="false" name="compass_accuracy_low">Por favor, vuelva a calibrar la brújula agitando su dispositivo en una figura 8 movimiento.</string>
+    
+</resources>

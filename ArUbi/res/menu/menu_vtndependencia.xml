@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/itmcheckin"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Compartir">
+        <menu>
+        	<item android:id="@+id/itmcheckinTwt"
+              android:title="Twitter"/>
+        	<item android:id="@+id/itmcheckinFcb"
+              android:title="Facebook"/>
+    	</menu>
+    </item>
+    <item
+        android:id="@+id/itmVerMapa"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="Ver en Mapa"/>   
+
+</menu>
